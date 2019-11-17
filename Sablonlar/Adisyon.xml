@@ -64,18 +64,18 @@
   <yazi hizalama="Sol" font="Consolas" boyut="11" stil="Regular" renk="#000000">
     <bosluk genislik="4"></bosluk>
     <alan hizalama="Sağ" genislik="5">Vergi</alan>
-	  <bosluk genislik="1"></bosluk>
-	  <alan hizalama="Sağ" genislik="10">Matrah</alan>
-	  <bosluk genislik="1"></bosluk>
-	  <alan hizalama="Sağ" genislik="10">Tutar</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="10">Matrah</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="10">Tutar</alan>
   </yazi>
   <kdvoranlari hizalama="Sol" font="Consolas" boyut="11" stil="Regular" renk="#000000">
     <bosluk genislik="4"></bosluk>
     <alan hizalama="Sağ" genislik="5">{KDVORANI}</alan>
-	  <bosluk genislik="1"></bosluk>
-	  <alan hizalama="Sağ" genislik="10">{MATRAH}</alan>
-	  <bosluk genislik="1"></bosluk>
-	  <alan hizalama="Sağ" genislik="10">{KDVTOPLAMI}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="10">{MATRAH}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="10">{KDVTOPLAMI}</alan>
   </kdvoranlari>
   <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Regular" renk="#000000">
     <alan hizalama="Sol" genislik="36">__________________________________</alan>
