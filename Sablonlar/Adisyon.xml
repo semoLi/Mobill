@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-9"?>
+<sablon adi="ADISYON" genislik="284">
+  <bosluk yukseklik="10"></bosluk>
+  <logo hizalama="Orta" genislik="215" yukseklik="110">
+    logo.png
+  </logo>
+  <bosluk yukseklik="10"></bosluk>
+  <yazi hizalama="Orta" font="Tahoma" boyut="15" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="30">{MESAJ1}</alan>
+  </yazi>
+  <yazi hizalama="Orta" font="Tahoma" boyut="12" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="30">{MESAJ2}</alan>
+  </yazi>
+  <yazi hizalama="Orta" font="Tahoma" boyut="10" stil="Bold, Italic" renk="#000000">
+    <alan hizalama="Sol" genislik="30">{MESAJ3}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="17">{LOKASYON}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="2">G:</alan>
+    <alan hizalama="Sol" genislik="14">{PLASIYERADI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="10" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="7">Tarih :</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="10">{TARIH}</alan>
+    <bosluk genislik="2"></bosluk>
+    <alan hizalama="Sol" genislik="8">Masa No:</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{EVRAKSERI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="10" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="7">Saat  :</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="10">{SAAT}</alan>
+    <bosluk genislik="2"></bosluk>
+    <alan hizalama="Sol" genislik="8">Fiş No :</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{EVRAKSIRA}</alan>
+  </yazi>
+  <bosluk yukseklik="5"/>
+  <yazi hizalama="Sol" font="Consolas" boyut="11" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="19">Ürün Adı</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="5">Mktr</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="6">Toplam</alan>
+    <bosluk genislik="1"></bosluk>
+  </yazi>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="36">__________________________________</alan>
+  </yazi>
+  <dinamik hizalama="Sol" font="Consolas" boyut="11" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="19">{STOKADI}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="5">{MIKTAR}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="6">{GENELTOPLAM}</alan>
+    <bosluk genislik="1"></bosluk>
+  </dinamik>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="34">__________________________________</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="11" stil="Regular" renk="#000000">
+    <bosluk genislik="4"></bosluk>
+    <alan hizalama="Sağ" genislik="5">Vergi</alan>
+	  <bosluk genislik="1"></bosluk>
+	  <alan hizalama="Sağ" genislik="10">Matrah</alan>
+	  <bosluk genislik="1"></bosluk>
+	  <alan hizalama="Sağ" genislik="10">Tutar</alan>
+  </yazi>
+  <kdvoranlari hizalama="Sol" font="Consolas" boyut="11" stil="Regular" renk="#000000">
+    <bosluk genislik="4"></bosluk>
+    <alan hizalama="Sağ" genislik="5">{KDVORANI}</alan>
+	  <bosluk genislik="1"></bosluk>
+	  <alan hizalama="Sağ" genislik="10">{MATRAH}</alan>
+	  <bosluk genislik="1"></bosluk>
+	  <alan hizalama="Sağ" genislik="10">{KDVTOPLAMI}</alan>
+  </kdvoranlari>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="36">__________________________________</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="17" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="10">Ara Top  : </alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{EVAL}{GENELTOPLAM}-{STOKKODU:1@GENELTOPLAM}-{STOKKODU:BALIK@GENELTOPLAM}{/EVAL}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="2">{DOVIZTIPI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="17" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="10">Garsoniye: </alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{STOKKODU:1@GENELTOPLAM}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="2">{DOVIZTIPI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="17" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="10">Toplam   : </alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{EVAL}{GENELTOPLAM}-{STOKKODU:BALIK@GENELTOPLAM}{/EVAL}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="2">{DOVIZTIPI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="17" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="10">Balık    : </alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{STOKKODU:BALIK@GENELTOPLAM}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="2">{DOVIZTIPI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Consolas" boyut="17" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="10">Genel Top: </alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="7">{GENELTOPLAM}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="2">{DOVIZTIPI}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="34">__________________________________</alan>
+  </yazi>
+  <tahsilat hizalama="Sağ" font="Consolas" boyut="8" stil="Regular" renk="#000000">
+    <alan hizalama="Sağ" genislik="10">{TIPI}</alan>
+    <alan hizalama="Sağ" genislik="1">:</alan>
+    <alan hizalama="Sağ" genislik="9">{TUTAR}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="2">{DOVIZTIPI}</alan>
+  </tahsilat>
+  <yazi hizalama="Orta" font="Tahoma" boyut="16" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="30">{MESAJ4}</alan>
+  </yazi>
+  <yazi hizalama="Orta" font="Tahoma" boyut="16" stil="Bold, Italic" renk="#000000">
+    <alan hizalama="Sol" genislik="30">{MESAJ5}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Tahoma" boyut="1" stil="Bold, Italic" renk="#000000">
+    <alan hizalama="Sağ" genislik="30">{MESAJ6}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Tahoma" boyut="1" stil="Bold, Italic" renk="#000000">
+    <alan hizalama="Sol" genislik="30">{MESAJ7}</alan>
+  </yazi>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="34">__________________________________</alan>
+  </yazi>
+  <alttoplam hizalama="Sol" font="Consolas" boyut="12" stil="Regular" renk="#000000">
+    <alan hizalama="Sol" genislik="16">{ADI}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="10">{TUTAR}</alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sağ" genislik="2">{DOVIZTIPI}</alan>
+  </alttoplam>
+</sablon>
