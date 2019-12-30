@@ -20,6 +20,11 @@
     <alan hizalama="Sol" genislik="2">G:</alan>
     <alan hizalama="Sol" genislik="14">{PLASIYERADI}</alan>
   </yazi>
+  <yazi hizalama="Sol" font="Lucida Console" boyut="10" stil="Bold" renk="#000000">
+    <alan hizalama="Sol" genislik="8">Çek No: </alan>
+    <bosluk genislik="1"></bosluk>
+    <alan hizalama="Sol" genislik="25">{CEKID}</alan>
+  </yazi>
   <yazi hizalama="Sol" font="Consolas" boyut="10" stil="Bold" renk="#000000">
     <alan hizalama="Sol" genislik="7">Tarih :</alan>
     <bosluk genislik="1"></bosluk>
